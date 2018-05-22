@@ -1,0 +1,64 @@
+﻿ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fn-textcenter {
+    text-align: center;
+}
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    zoom: 1;
+}
+.main .top {
+    text-align: center;
+}
+.list ul li {
+    padding: 10px;
+}
+.list ul li label{
+    width: 30%;
+    display:inline-block;
+    padding: 0 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+.list ul li input {
+    border: 1px solid #e2e2e2;
+    padding: 5px;
+    width: 200px;
+}
+.list ul li .btn-blue {
+    background: #06a5e1;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+}
+.list ul li .btn-blue:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+.list ul li .btn-blue:not([disabled]):hover {
+    opacity:0.8;
+    filter:alpha(opacity=80);/* For IE8 or earlier version */
+}
+.list input:focus {
+    border-color: #66AFE9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.list .tip-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+    vertical-align: middle;
+    padding: 5px 30px;
+    display:none;
+}
